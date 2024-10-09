@@ -3,7 +3,7 @@
 }
 body{
     display: grid;
-    grid-template: 1fr/ 1fr 1fr 1fr;
+    grid-template: 1fr/ 1fr;
     justify-content: center;
     align-items: center;
     height: 95vh;
@@ -30,7 +30,15 @@ body{
     width: 62.5px;
     margin: 0;
     font-size: 45px;
-    transition: top 0.1s, bottom 0.1s;
+    transition: top 0.1s, bottom 0.1s, font-size 0.1s;
+}
+.whitepiece:active{
+    font-size: 52px;
+    transition: font-size 0.1s;
+}
+.blackpiece:active{
+    font-size: 52px;
+    transition: font-size 0.1s;
 }
 .board{
     display: grid;
