@@ -7,73 +7,108 @@
     <title>JSChess</title>
 </head>
 <body>
-    <div class="board">
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
-        <div class="whitespace"></div>
-        <div class="blackspace"></div>
+    <div class="piececontainer">
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♞</p>
+        <p class="emptypiece">♞</p>
+        <p class="emptypiece">♝</p>
+        <p class="emptypiece">♝</p>
+        <p class="emptypiece">♜</p>
+        <p class="emptypiece">♜</p>
+        <p class="emptypiece">♛</p>
+        <p class="emptypiece">♚</p>
     </div>
-    <p class="piece" id="1">♟️</p>
+    <div class="board">
+        <div class="blackspace"><p class="whitepiece" id="piece">♜</p></div>
+        <div class="whitespace"><p class="whitepiece" id="piece">♞</p></div>
+        <div class="blackspace"><p class="whitepiece" id="piece">♝</p></div>
+        <div class="whitespace"><p class="whitepiece" id="piece">♛</p></div>
+        <div class="blackspace"><p class="whitepiece" id="piece">♚</p></div>
+        <div class="whitespace"><p class="whitepiece" id="piece">♝</p></div>
+        <div class="blackspace"><p class="whitepiece" id="piece">♞</p></div>
+        <div class="whitespace"><p class="whitepiece" id="piece">♜</p></div>
+        <div class="whitespace"><p class="whitepiece" id="piece">♟️</p></div>
+        <div class="blackspace"><p class="whitepiece" id="piece">♟️</p></div>
+        <div class="whitespace"><p class="whitepiece" id="piece">♟️</p></div>
+        <div class="blackspace"><p class="whitepiece" id="piece">♟️</p></div>
+        <div class="whitespace"><p class="whitepiece" id="piece">♟️</p></div>
+        <div class="blackspace"><p class="whitepiece" id="piece">♟️</p></div>
+        <div class="whitespace"><p class="whitepiece" id="piece">♟️</p></div>
+        <div class="blackspace"><p class="whitepiece" id="piece">♟️</p></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="whitespace"></div>
+        <div class="blackspace"></div>
+        <div class="blackspace"><p class="blackpiece" id="piece">♟️</p></div>
+        <div class="whitespace"><p class="blackpiece" id="piece">♟️</p></div>
+        <div class="blackspace"><p class="blackpiece" id="piece">♟️</p></div>
+        <div class="whitespace"><p class="blackpiece" id="piece">♟️</p></div>
+        <div class="blackspace"><p class="blackpiece" id="piece">♟️</p></div>
+        <div class="whitespace"><p class="blackpiece" id="piece">♟️</p></div>
+        <div class="blackspace"><p class="blackpiece" id="piece">♟️</p></div>
+        <div class="whitespace"><p class="blackpiece" id="piece">♟️</p></div>
+        <div class="whitespace"><p class="blackpiece" id="piece">♜</p></div>
+        <div class="blackspace"><p class="blackpiece" id="piece">♞</p></div>
+        <div class="whitespace"><p class="blackpiece" id="piece">♝</p></div>
+        <div class="blackspace"><p class="blackpiece" id="piece">♛</p></div>
+        <div class="whitespace"><p class="blackpiece" id="piece">♚</p></div>
+        <div class="blackspace"><p class="blackpiece" id="piece">♝</p></div>
+        <div class="whitespace"><p class="blackpiece" id="piece">♞</p></div>
+        <div class="blackspace"><p class="blackpiece" id="piece">♜</p></div>
+    </div>
+    <div class="piececontainer">
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♟️</p>
+        <p class="emptypiece">♞</p>
+        <p class="emptypiece">♞</p>
+        <p class="emptypiece">♝</p>
+        <p class="emptypiece">♝</p>
+        <p class="emptypiece">♜</p>
+        <p class="emptypiece">♜</p>
+        <p class="emptypiece">♛</p>
+        <p class="emptypiece">♚</p>
+    </div>
 </body>
     <script src="main.js"></script>
 </html>

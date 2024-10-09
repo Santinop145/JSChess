@@ -1,14 +1,17 @@
-piece = document.getElementById("1");
+document.addEventListener('mousedown', function(e) {
+    const target = e.target;
+        movePiece(e, target);
+});
 
-function moveAt(posY, posX) {
-    piece.style.left = posX - piece.offsetWidth / 2 + 'px';
-    piece.style.top = posY - piece.offsetHeight / 2 + 'px';
-}
-
-function movePiece(e){
-    console.log("hola");
+function movePiece(e, target) {
+    console.log("Moving:", target);
 
     moveAt(e.pageY, e.pageX);
+
+    function moveAt(posY, posX) {
+        target.style.left = posX - target.offsetWidth / 2 + 'px';
+        target.style.top = posY - target.offsetHeight / 2 + 'px';
+    }
     
     function onMouseMove(e) {
         moveAt(e.pageY, e.pageX);
@@ -25,5 +28,3 @@ function movePiece(e){
 
     e.preventDefault();
 }
-
-piece.onmousedown = movePiece;
