@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    grid-template: 1fr / 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.piece{
+    position: absolute;
+    font-size: xx-large;
+}
+.board{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(77, 44, 14);
+    border: outset rgb(128, 74, 24) 15px;
+}
+.blackspace{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(42, 87, 42);
+}
+.whitespace{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
