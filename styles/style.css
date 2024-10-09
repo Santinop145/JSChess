@@ -1,3 +1,6 @@
+*{
+    font-family: "Noto Emoji", sans-serif;
+}
 body{
     display: grid;
     grid-template: 1fr/ 1fr 1fr 1fr;
